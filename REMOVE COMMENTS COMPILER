@@ -11,7 +11,7 @@ public class JavaApplication1 {
         for(i=0;i<s.length;i++){
             Scanner saif=new Scanner(System.in);
          s[i]=saif.nextLine();
-         if(s[i].charAt(0)=='/'&&s[i].charAt(1)=='/'&&s[i].charAt(s.length-1)=='/'&&s[i].charAt(s.length)=='/')
+         if(s[i].charAt(0)=='/'&&s[i].charAt(1)=='/'&&s[i].charAt(s[i].length-1)=='/'&&s[i].charAt(s[i].length)=='/')
          {
              s[i]=" ";
          }
